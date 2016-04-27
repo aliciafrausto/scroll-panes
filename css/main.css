@@ -10,7 +10,38 @@ a:hover, a:focus {
   color: #005580;
 }
 
+.content {
+	background-color: #fff;
+}
 
+/*  header     */
+.header {
+	background-color: #fff;
+	
+}
 
-/*   Navigation     */
+#crumbTrail {
+    position: relative;
+    z-index: 0;
+}
+.container.subheader {
+    height: 31px;
+    background-color: #666;
+    background-image: none;
+    border-top: 5px solid #049cdb;
+}
 
+p.breadcrumbs {
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-left: 12px;
+    padding-top: 6px;
+    color: #fff;
+}
+
+/*content*/
+p.passage-intro {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
