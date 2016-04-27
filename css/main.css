@@ -10,6 +10,12 @@ a:hover, a:focus {
   color: #005580;
 }
 
+p {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
 .content {
 	background-color: #fff;
 }
@@ -41,7 +47,15 @@ p.breadcrumbs {
 
 /*content*/
 p.passage-intro {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: bold;
 }
+
+
+.badge-inverse {
+    background-color: #333333;
+    padding-left: 9px;
+	padding-right: 9px;
+}
+
+
