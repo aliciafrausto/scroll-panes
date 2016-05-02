@@ -18,16 +18,16 @@
 		$('.scroll-pane').each( function( idx, elem ) {
 			var $pane = $(elem);
 			var scrollTop = $pane.scrollTop();
-			showShadow = scrollTop > 0 || showShadow;	
-			// $pane.removeClass('shadow');
-			// if ( showShadow ) {
-			// 	$pane.addClass('shadow');
-			// }
+			showShadow = scrollTop > 0;// || showShadow	
+			$pane.removeClass('shadow');
+			if ( showShadow ) {
+				$pane.addClass('shadow');
+			}
 		});
-		$('.header-secondary').removeClass('shadow');
-		if ( showShadow ) {
-			$('.header-secondary').addClass('shadow');
-		}
+		// $('.header-secondary').removeClass('shadow');
+		// if ( showShadow ) {
+		// 	$('.header-secondary').addClass('shadow');
+		// }
 	}
 	
 	sizeScrollPane();
